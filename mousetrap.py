@@ -12,13 +12,13 @@ try:
         if current > limit:
             rand_move       = np.random.randint(-200, 200, size=2)
             pyautogui.moveRel(rand_move[0], rand_move[1], duration = 1)
-            pyautogui.click()
+            pyautogui.press('f15')
             start           = time.time()
             current         = 0
             print("...mouse")
 
         current = time.time() - start
-        #print( current )
+        print( current )
         
 except KeyboardInterrupt:
     print('...trap!')
