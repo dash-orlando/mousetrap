@@ -31,6 +31,7 @@ try:
             pyautogui.press('f15')
             start           = time.time()
             current         = 0
+            print()
             print("...mouse")
             print('┈┈┈┈┈┈┈╱▔╲┈┈┈┈┈┈')
             print('┈┈┈┈┈┈▕╲╲╲▏┈┈┈┈┈')
@@ -45,6 +46,7 @@ try:
         #print( current )
         
 except KeyboardInterrupt:
+    print()
     print('...trap!')
     print('┈┈┈┈┈┈┈╱▔╲┈┈┈┈┈┈')
     print('┈┈┈┈┈┈▕╲╲╲▏┈┈┈┈┈')
