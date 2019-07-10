@@ -1,11 +1,27 @@
+'''
+    mousetrap.py
+        Made to annoy IT
+'''
+
 import  numpy       as np
 import  time
 import  pyautogui
 
+#print( "{} Setting Up
 pyautogui.FAILSAFE      = False
 start                   = time.time()
 current                 = 0
 limit                   = 10
+
+print(' Releasing Mouse...')
+print('┈┈┈┈┈┈┈╱▔╲┈┈┈┈┈┈')
+print('┈┈┈┈┈┈▕╲╲╲▏┈┈┈┈┈')
+print('┈┈╱▔╲┈┈╲▂╱┈┈┈┈┈┈')
+print('┈▕╲╲▕╱▔╱╲╱╲┈┈┈┈┈')
+print('┈┈╲▂╱▏╲╲▕▋▋╱▔▇┈┈')
+print('┈┈┈┈▕╲╱▔┈┈┈┈▁╱┈┈')
+print('┈┈┈┈┈╲▏┈◥▇▇◤┈┈┈┈')
+print('┈┈┈┈┈┈╲▂▂▂╱┈┈┈┈┈')
 
 try:
     while True:
@@ -16,9 +32,25 @@ try:
             start           = time.time()
             current         = 0
             print("...mouse")
+            print('┈┈┈┈┈┈┈╱▔╲┈┈┈┈┈┈')
+            print('┈┈┈┈┈┈▕╲╲╲▏┈┈┈┈┈')
+            print('┈┈╱▔╲┈┈╲▂╱┈┈┈┈┈┈')
+            print('┈▕╲╲▕╱▔╱╲╱╲┈┈┈┈┈')
+            print('┈┈╲▂╱▏╲╲▕▋▋╱▔▇┈┈')
+            print('┈┈┈┈▕╲╱▔┈┈┈┈▁╱┈┈')
+            print('┈┈┈┈┈╲▏┈◥▇▇◤┈┈┈┈')
+            print('┈┈┈┈┈┈╲▂▂▂╱┈┈┈┈┈')
 
         current = time.time() - start
-        print( current )
+        #print( current )
         
 except KeyboardInterrupt:
     print('...trap!')
+    print('┈┈┈┈┈┈┈╱▔╲┈┈┈┈┈┈')
+    print('┈┈┈┈┈┈▕╲╲╲▏┈┈┈┈┈')
+    print('┈┈╱▔╲┈┈╲▂╱┈┈┈┈┈┈')
+    print('┈▕╲╲▕╱▔╱╲╱╲┈┈┈┈┈')
+    print('┈┈╲▂╱▏╲╲╳ ╳╱ ▇┈┈')
+    print('┈┈┈┈▕╲╱▔┈┈┈┈▁╱┈┈')
+    print('┈┈┈┈┈╲▏┈◥▇▇◤┈┈┈┈')
+    print('┈┈┈┈┈┈╲▂▂▂╱┈┈┈┈┈')
